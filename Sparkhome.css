@@ -1,0 +1,106 @@
+body{
+	box-sizing: border-box;
+	margin: 0;
+	overflow: hidden;
+	background-image: url(./Refined/bpgradient.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 100vh;
+	width: 100vw;
+	color: #B1B1B1;
+	font-size: 1.1em;
+	font-weight: 600;
+	font-family: ;
+	outline: 1px solid red;
+}
+
+header{
+	box-sizing: border-box;
+	height: 40px;
+	width: 100vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	z-index: 10;
+	background-color: rgba(240, 240, 240, 0.1);
+	backdrop-filter: blur(12px);
+}
+
+.logo img{
+	height: 35px;
+	width: 70px;
+}
+
+.navp{
+	background-color: transparent;
+	border-radius: 40px;
+}
+
+.navp a{
+	text-decoration: none;
+	color: #B1B1B1;
+	padding: 8px;
+}
+
+.headerButton button{
+	color: #8F0A9F;
+	background-color: #111111;
+	width: 70px;
+	height: 25px;
+	font-weight: 700;
+	border-radius: 40px;
+	border: 2px solid #C51077;
+}
+.headerButton button:hover{
+	box-shadow: 0 0 10px rgba(255, 255, 255, 1.0);
+}
+
+.about{
+	position: absolute;
+	width: 500px;
+	height: 270px;
+	border-radius: 8px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: rgba(240, 240, 240, 0.1);
+	backdrop-filter: blur(12px);
+	box-shadow: 0 0 10px rgba(255, 255, 255, 1.0);
+	top: 30%;
+	left: 40px;
+	z-index: 3;
+}
+
+.creations{
+	position: absolute;
+	color: #8F0A9F;
+	background-color: #111111;
+	width: 100px;
+	height: 35px;
+	top: 85%;
+	font-weight: 700;
+	font-size: 1em;
+	border-radius: 40px;
+	border: 2px solid #C51077;
+}
+
+.creations:hover{
+	box-shadow: 0 0 10px rgba(255, 255, 255, 1.0);
+}
+
+.model{
+	pointer-events: none;
+	background-image: url(./models/model1.png);
+	position: absolute;
+	width: 100%;
+	height: 600px;
+	background-position: right;
+	background-repeat: no-repeat;
+	z-index: 0;
+	background-size: 40%;
+	right: 1%;
+	top: 1%;
+
+}
